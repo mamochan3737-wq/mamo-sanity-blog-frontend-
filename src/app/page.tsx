@@ -10,7 +10,7 @@ interface Post {
 }
 
 async function getPosts() {
-  const posts = await client.fetch<Post[]>(`*[_type == "post"]{
+  const posts = await client.fetch<Post[]>(`*[_type == "post" && defined(slug.current)]{
     _id,
     title,
     slug
