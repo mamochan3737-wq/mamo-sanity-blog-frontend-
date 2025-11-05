@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@portabletext/react": "^5.0.0",
     "@sanity/client": "^7.12.1",
     "next": "^16.0.1",
     "react": "^19.2.0",
