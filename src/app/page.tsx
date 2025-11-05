@@ -23,7 +23,7 @@ export default async function Home() {
 
   return (
     <main>
-      <h1>Sanity Blog Posts</h1>
+      <h1 className="text-4xl font-bold underline">Sanity Blog Posts</h1>
       {posts.length > 0 ? (
         <ul>
           {posts.map((post) => (
